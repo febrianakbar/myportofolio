@@ -1,0 +1,61 @@
+@media screen and (max-width: 450px) {
+    img {
+        float: right;
+        margin-right: -300px;
+        margin-top: -190px;
+        width: 300px;
+        margin-bottom: 0px;
+    }
+    .image h1 {
+        padding-left: 100px;
+        padding-top: 250px;
+        font-size: 30px;
+    }
+    .image a {
+        background-color: purple;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        margin: 20px 0;
+        border-radius: 5px;
+        margin-left: 95px;
+    }
+    .image2 img {
+        border-radius: 100%;
+        width: 160px;
+        height: 160px;
+        margin:-220px -30px;
+        margin-top: 70px;
+    }
+    .image2 h2 {
+        padding-top: 250px;
+        padding-left: 340px;
+        font-weight: bold;
+    }
+    .image2 p {
+        padding-left: 100px;
+        font-size: 20px;
+        font-family: arial;
+    }
+    .image4 h2 {
+        margin: 0px 330px;
+    }
+    .image5 img {
+        width: 150px;
+        margin-top: -225px;
+        margin-right: 130px;
+    }
+    .image4 img {
+        margin-left: 400px;
+        margin-top: 80px;
+        width: 230px;
+    }
+    .image4 a {
+        margin-left: 480px;
+    }
+    .image5 a {
+        margin-right: 150px;
+    }
+}
