@@ -153,7 +153,7 @@ img {
     border-radius: 100%;
     width: 250px;
     height: 250px;
-    margin:-220px 605px;
+    margin:-220px 625px;
     margin-top: 90px;
 }
 .image2 {
@@ -168,17 +168,13 @@ img {
     text-align: center;
     font-size: 18px;
     font-family: arial;
-    padding: 60px 50px;
+    padding: 50px 50px;
 }
 .image4 img {
-    width: 400px;
+    width: 250px;
     position: absolute;
-    margin-top: 10px;
-    margin-left: 300px;
-}
-.image4 h2 {
-    margin-left: 690px;
-    margin-top: -50px;
+    margin-top: 50px;
+    margin-left: 370px;
 }
 .image4 a {
     background-color: purple;
@@ -192,10 +188,9 @@ img {
     margin-left: 438px;
 }
 .image5 img {
-    width: 260px;
-    float: right;
-    margin-top: -260px;
-    margin-right: 355px;
+    width: 380px;
+    margin-right: 350px;
+    margin-top: -290px;
 }
 .image5 a {
     background-color: purple;
@@ -205,10 +200,13 @@ img {
     color: white;
     border-radius: 5px;
     float: right;
-    margin-top: -38px;
-    margin-right: 425px;
+    margin-top: -42px;
+    margin-right: 480px;
     margin-bottom: 20%;
 }
 .p {
     margin-top: 20%;
+}
+.image4 h2 {
+    padding-left: 670px;
 }

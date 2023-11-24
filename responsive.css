@@ -1,61 +1,83 @@
-@media screen and (max-width: 450px) {
-    img {
-        float: right;
-        margin-right: -300px;
-        margin-top: -190px;
-        width: 300px;
-        margin-bottom: 0px;
-    }
+@media screen and (max-width: 768px) {
     .image h1 {
-        padding-left: 100px;
-        padding-top: 250px;
+        padding-left: 70px;
         font-size: 30px;
+        padding-top: 250px;
+    }
+    img {
+        width: 300px;
+        margin-right: 30px;
     }
     .image a {
-        background-color: purple;
-        padding: 10px 18px;
-        text-decoration: none;
-        font-weight: bold;
-        color: white;
-        display: inline-block;
-        margin: 20px 0;
-        border-radius: 5px;
-        margin-left: 95px;
+        margin-left: 75px;
     }
     .image2 img {
-        border-radius: 100%;
-        width: 160px;
-        height: 160px;
-        margin:-220px -30px;
-        margin-top: 70px;
+        margin-right: 280px;
+        width: 200px;
+        height: 200px;
     }
     .image2 h2 {
-        padding-top: 250px;
-        padding-left: 340px;
-        font-weight: bold;
-    }
-    .image2 p {
-        padding-left: 100px;
-        font-size: 20px;
-        font-family: arial;
-    }
-    .image4 h2 {
-        margin: 0px 330px;
-    }
-    .image5 img {
-        width: 150px;
-        margin-top: -225px;
-        margin-right: 130px;
+        padding-top: 330px;
     }
     .image4 img {
-        margin-left: 400px;
-        margin-top: 80px;
-        width: 230px;
+        width: 240px;
+        margin-top: 65px;
     }
-    .image4 a {
-        margin-left: 480px;
+    .image4 h2 {
+        padding-left: 320px;
+    }
+    .image5 img {
+        width: 360px;
+        margin-top: -275px;
     }
     .image5 a {
-        margin-right: 150px;
+        margin-top: -40px;
+        margin-right: 465px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .image h1 {
+        padding-left: 70px;
+        font-size: 30px;
+    }
+    img {
+        width: 250px;
+        margin-right: -200px;
+        margin-top: -150px;
+    }
+    .image a {
+        margin-left: 70px;
+    }
+    .image2 img {
+        margin-right: 5px;
+    }
+    .image2 h2 {
+        padding-top: 330px;
+        padding-left: 200px;
+    }
+    .image4 h2 {
+        padding-left: 250px;
+    }
+    .image4 img {
+        margin-left: 80px;
+        width: 180px;
+    }
+    .image5 img {
+        margin-right: -150px;
+        width: 280px;
+        margin-top: -270px;
+    }
+    .image4 a {
+        margin-left: 110px;
+    }
+    .image5 a {
+        margin-right: -70px;
+    }
+    .image2 p {
+        justify-content: center;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: -200px;
     }
 }
